@@ -5,7 +5,7 @@ MAINTAINER RAO VAKALAGADDA
 ENV NODE_ENV=production
 ENV PORT=3000
 
-COPY . /var/www
+COPY /home/nbcutitans/services/demoservice /var/www
 
 
 WORKDIR /var/www
